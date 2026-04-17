@@ -1,0 +1,89 @@
+@font-face {
+    font-family: isaac;
+    src: url('/assets/fonts/Font_soulsV2_Body-Regular.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: isaac;
+}
+
+/**==== DECLARACIÓN DE VARIABLES =====**
+/****/
+:root {
+    --color-fondo: #111111;
+    --color-sec: #333333;
+}
+
+/**==== BODY =====**
+/****/
+body {
+    background-color: var(--color-fondo);
+}
+
+/**==== Nav =====**
+/****/
+
+/* CONTENEDOR LOGO */
+.logo-cont {
+    display: flex;
+    color: white; background-color: var(--color-sec);
+    border-bottom: 1px solid rgb(99, 99, 99);
+    justify-content: center; align-items: center;
+}
+/* LOGO IMAGEN */
+.logo-img {
+    width: 64px; height: auto;
+}
+/* LOGO TEXTO */
+.logo-text {
+    font-size: 25px;
+}
+
+/**==== Cards =====**
+/****/
+
+#cards-cont {
+    display: flex; flex-direction: row;
+    align-items: center; justify-content: center;
+    margin: 0px auto 0; gap: 30px; padding: 10px;
+    max-width: 900px;
+    flex-wrap: wrap;
+}
+
+.card-img {
+    max-width: 180px; height: auto;
+    border: none; border-radius: 10px;
+    box-shadow: 4px 4px 0px 4px black;
+}
+
+/* NUMERO DE LA CARD */
+.numContainer {
+    position: relative; top: 35px; left: 85%;
+    background-color: white;
+    padding: 10px;
+    border: none; border-radius: 50%;
+    width: 40px; height: 40px;
+    text-align: center;
+}
+
+.numCard {
+    font-size: 20px;
+}
+
+/** BUTONS **/
+
+.btnCont {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.btnRand {
+    background-color: #333333; color: white;
+    width: 180px; max-width: 250px; height: auto;
+    padding: 10px; margin-top: 15px;
+    border: 2px solid #777; border-radius: 10px;
+    font-size: 20px;
+}

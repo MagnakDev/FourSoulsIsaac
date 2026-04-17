@@ -1,0 +1,145 @@
+@font-face {
+    font-family: isaac;
+    src: url('/assets/fonts/Font_soulsV2_Body-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: isaac;
+}
+
+/**==== DECLARACIÓN DE VARIABLES =====**
+/****/
+:root {
+    --color-fondo: #111111;
+    --color-sec: #333333;
+}
+
+/**==== BODY ====**/
+/****/
+
+body {
+    background-color: var(--color-fondo);
+}
+
+main {
+    display: flex;
+}
+
+/**==== MENU ====**/
+/****/
+
+.menu {
+    flex: 0 0 250px;
+    background-color: var(--color-sec); color: white;
+    max-width: 250px; height: 100vh;
+    padding: 10px;
+    align-items: center; justify-content: center;
+    border-right: 1px solid rgb(99, 99, 99);
+}
+/* .......... */
+/* CONTENEDOR DEL LOGO */
+.logo-cont {
+    display: flex; flex-direction: row; flex-wrap: wrap;
+    align-content:flex-start; align-items: center;
+    margin-top: 10px; margin-right: 5px;
+}
+/* IMAGEN DEL LOGO */
+.logo-image {
+    width: 64px;
+    pointer-events: none;
+}
+/* TEXTO DEL LOGO */
+.logo-text {
+    font-size: 23px; font-weight: bold;
+    pointer-events:none;
+}
+/* hr */
+hr {
+    margin-top: 10px;
+    border: none;
+    height: 2px;
+    background-color: #777;
+}
+
+/**==== MENU BTN ====**/
+/****/
+/* CONTENEDOR DEL BTN MENU */
+.container-btn {
+    margin-top: 20px;
+    border: none;
+}
+/* BTN menu */
+.btn-menu{
+    display: flex;
+    background-color: #333333; color: white;
+    width: 100%; max-width: 100%; height: auto;
+    padding: 10px; margin-top: 15px;
+    border: 2px solid #777; border-radius: 10px;
+    align-items: center; gap: 10px;
+    transition: all 0.1s;
+}
+/* BTN menu HOVER */
+.btn-menu:hover {
+    background-color: #252525;
+}
+/* BTN menu SPAN */
+.btn-menu span {
+    font-size: 22px;
+}
+
+/**==== SECCIONES ====**/
+/****/
+
+#contenido-principal {
+    flex: 1;
+    background-color: var(--color-fondo);
+    color: white;
+}
+
+.seccion-contenido {
+    display: none;
+    padding: 20px;
+}
+
+.seccion-contenido.active {
+    display: block;
+}
+
+/**==== CARDS ====**/
+/****/
+/* CONTENEDOR DE BOTONES */
+.cards-container { 
+    display: flex; flex-wrap: wrap;
+    max-width: 1000px; height: fit-content;
+}
+/* BOTONES */
+.cards-select {
+    padding: 50px; margin: 10px;
+    width: 100%; max-width: 300px;
+    border: none; border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    font-size: 30px;
+    transition: all 0.3s;
+}
+.cards-select:hover {
+    filter: brightness(0.6);
+}
+/* BOTON DE PERSONAJES */
+#btn-char {
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+}
+/* BOTON DE CARTAS ETERNAS */
+#btn-eternal {
+    background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+}
+/* BOTON DE TESOROS */
+#btn-tesoro {
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+/* BOTON DE LOOT */
+#btn-loot {
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+}

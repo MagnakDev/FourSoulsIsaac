@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FourSoulsDex</title>
+    <link rel="stylesheet" href="styles/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+    <main>
+        <!-- Menú -->
+        <section id="menu">
+            <!-- Logo Contenedor-->
+            <div id="logo-cont">
+                <img id="image-logo" src="assets/logo.png">
+                <h1 id="text-logo">Four Souls Dex</h1>
+            </div>
+            <hr>
+            <!--.........-->
+            <!-- CARDS CONTAINER -->
+            <div class="container-btn">
+                <!-- BOTON CARDS-->
+                <button class="btn-menu" data-section="cards">
+                    <i class="fa-solid fa-dice-five fa-xl" style="color: rgb(255, 255, 255);"></i>
+                    <span>Cards</span>
+                </button>
+                <!-- BOTON SETS-->
+                <button class="btn-menu" data-section="sets">
+                    <i class="fa-solid fa-layer-group fa-xl" style="color: rgb(255, 255, 255);"></i>
+                    <span>Sets</span>
+                </button>
+            </div>
+        </section>
+        <!-- CONTENIDO PRINCIPAL -->
+         <section id="contenido-principal">
+
+            <!-- Cards -->
+            <div id="cards" class="seccion-contenido active">
+                <h1>Cards</h1>
+                <div class="cards-container">
+                    <button id="btn-char" class="cards-select" onclick="window.location.href='characters.html'">
+                        <span>Characters</span>
+                    </button>
+                    <!-- BOTON DE STARTING ITEMS-->
+                    <button id="btn-eternal" class="cards-select">
+                        <span>Starting items</span>
+                    </button>
+                    <!-- TESOROS-->
+                     <button id="btn-tesoro" class="cards-select">
+                        <span>Treasure</span>
+                     </button>
+                     <!-- LOOT -->
+                      <button id="btn-loot" class="cards-select">
+                        <span>Loot</span>
+                      </button>
+                </div>
+            </div>
+
+            <!-- Sets-->
+             <div id="sets" class="seccion-contenido">
+                <h1> sets </h1>
+             </div>
+         </section>
+
+    </main>
+    
+    <script src="scripts/script.js"></script>
+</body>
+</html>

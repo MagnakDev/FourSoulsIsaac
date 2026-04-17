@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/characters/card-char.css">
+</head>
+<body>
+    <section id="container">
+
+    </section>
+
+
+    <script>
+        const container = document.getElementById('container')
+        container.className = 'container'
+        const char = JSON.parse(localStorage.getItem('selectedChar'));
+        const rnChar = JSON.parse(localStorage.getItem('randomChar'));
+        if(char){
+            document.title = 'Card Character | ' + char.name;
+            
+            // Imagen de la carta frontal
+            const imgFront = document.createElement('img');
+            imgFront.src = char.image;
+            imgFront.className = 'img-card';
+            // Nombre de la card
+            const name = document.createElement('h1');
+            name.textContent = char.name;
+            name.className = 'name'
+            // Imagen de la carta trasera
+            const imgBack = document.createElement('img');
+            imgBack.src = char.imageback;
+            imgBack.className = 'img-card';
+
+
+            container.appendChild(imgFront)
+            container.appendChild(name)
+            container.appendChild(imgBack)
+        }
+        else if(rnChar) {
+            document.title = 'Card Character | ' + rnChar.name;
+
+            const imgFrontRn = document.createElement('img');
+            imgFrontRn.src = rnChar.image;
+            imgFrontRn.className = 'img-card';
+            const nameRn = document.createElement('h1');
+            nameRn.textContent = rnChar.name;
+            nameRn.className = 'name';
+            const imgBackRn = document.createElement('img');
+            imgBackRn.src = rnChar.imageback;
+            imgBackRn.className = 'img-card';
+
+            container.appendChild(imgFrontRn);
+            container.appendChild(nameRn);
+            container.appendChild(imgBackRn);
+        }
+    </script>
+</body>
+</html>

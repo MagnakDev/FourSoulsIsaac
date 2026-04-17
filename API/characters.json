@@ -1,0 +1,587 @@
+{
+    "characters": [
+        {
+            "id": 1,
+            "name": "Isaac",
+            "image": "assets/images/cards/characters/c1-isaac.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp",
+            "starting-item": "The D6"
+        },
+        {
+            "id": 2,
+            "name": "Maggy",
+            "image": "assets/images/cards/characters/c1-maggy.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp",
+            "starting-item": "Yum Heart"
+        },
+        {
+            "id": 3,
+            "name": "Cain",
+            "image": "assets//images/cards/characters/c1-cain.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp",
+            "starting-item": "Sleight Of Hand"
+        },
+        {
+            "id": 4,
+            "name": "Judas",
+            "image": "assets/images/cards/characters/c1-judas.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp",
+            "starting-item": "Book Of Belial"
+        },
+        {
+            "id": 5,
+            "name": "Blue Baby",
+            "image": "assets/images/cards/characters/c1-blue_baby.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp",
+            "starting-item": "Forever Alone"
+        },
+        {
+            "id": 6,
+            "name": "Eve",
+            "image": "assets/images/cards/characters/c1-eve.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp",
+            "starting-item": "The Curse"
+        },
+        {
+            "id": 7,
+            "name": "Samson",
+            "image": "assets/images/cards/characters/c1-samson.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp",
+            "starting-item": "Blood Lust"
+        },
+        {
+            "id": 8,
+            "name": "Lazarus",
+            "image": "assets/images/cards/characters/c1-lazarus.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 9,
+            "name": "Lilith",
+            "image": "assets/images/cards/characters/c1-lilith.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 10,
+            "name": "The Forgotten",
+            "image": "assets/images/cards/characters/c1-the_forgotten.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 11,
+            "name": "Eden",
+            "image": "assets/images/cards/characters/c1-eden.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 12,
+            "name": "Azael",
+            "image": "assets/images/cards/characters/c1-azael.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 13,
+            "name": "The Lost",
+            "image": "assets/images/cards/characters/c1-the_lost.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 14,
+            "name": "The Keeper",
+            "image": "assets/images/cards/characters/c1-the_keeper.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 15,
+            "name": "Apollyon",
+            "image": "assets/images/cards/characters/c1-apollyon.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 16,
+            "name": "Bum-Bo",
+            "image": "assets/images/cards/characters/c1-bum_bo.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 17,
+            "name": "Dark Judas",
+            "image": "assets/images/cards/characters/c1-dark_judas.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 18,
+            "name": "Guppy",
+            "image": "assets/images/cards/characters/c1-guppy.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 19,
+            "name": "Whore Of Babylon",
+            "image": "assets/images/cards/characters/c1-whore_of_babylon.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 20,
+            "name": "Bethany",
+            "image": "assets/images/cards/characters/c1-bethany.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 21,
+            "name": "Jacob & Esau",
+            "image": "assets/images/cards/characters/c1-jacob_and_esau.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 22,
+            "name": "The Broken",
+            "image": "assets/images/cards/characters/c1-the_broken.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 23,
+            "name": "The Dauntless",
+            "image": "assets/images/cards/characters/c1-the_dauntless.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 24,
+            "name": "The Hoarder",
+            "image": "assets/images/cards/characters/c1-the_hoarder.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 25,
+            "name": "The Deceiver",
+            "image": "assets/images/cards/characters/c1-the_deceiver.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 26,
+            "name": "The Soiled",
+            "image": "assets/images/cards/characters/c1-the_soiled.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 27,
+            "name": "The Curdled",
+            "image": "assets/images/cards/characters/c1-the_curdled.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 28,
+            "name": "The Savage",
+            "image": "assets/images/cards/characters/c1-the_savage.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 29,
+            "name": "The Benighted",
+            "image": "assets/images/cards/characters/c1-the_benighted.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 30,
+            "name": "The Enigma",
+            "image": "assets/images/cards/characters/c1-the_enigma.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 31,
+            "name": "The Capricious",
+            "image": "assets/images/cards/characters/c1-the_capricious.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 32,
+            "name": "The Baleful",
+            "image": "assets/images/cards/characters/c1-the_baleful.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 33,
+            "name": "The Harlot",
+            "image": "assets/images/cards/characters/c1-the_harlot.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 34,
+            "name": "The Miser",
+            "image": "assets/images/cards/characters/c1-the_miser.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 35,
+            "name": "The Empty",
+            "image": "assets/images/cards/characters/c1-the_empty.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 36,
+            "name": "The Fettered",
+            "image": "assets/images/cards/characters/c1-the_fettered.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 37,
+            "name": "The Zealot",
+            "image": "assets/images/cards/characters/c1-the_zealot.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 38,
+            "name": "The Deserter",
+            "image": "assets/images/cards/characters/c1-the_deserter.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 39,
+            "name": "Flash Isaac",
+            "image": "assets/images/cards/characters/c1-flash_isaac.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 40,
+            "name": "Eden",
+            "image": "assets/images/cards/characters/c1-eden2.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 41,
+            "name": "Eden",
+            "image": "assets/images/cards/characters/c1-eden3.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 42,
+            "name": "Stacy",
+            "image": "assets/images/cards/characters/c1-stacy.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 43,
+            "name": "Clubby The Seal",
+            "image": "assets/images/cards/characters/c1-clubby_the_seal.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 44,
+            "name": "Gish",
+            "image": "assets/images/cards/characters/c1-gish.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 45,
+            "name": "The Hoarder",
+            "image": "assets/images/cards/characters/c1-the_hoarder-soi.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 46,
+            "name": "The Miser",
+            "image": "assets/images/cards/characters/c1-soi-the_miser.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 47,
+            "name": "Level One Isaac",
+            "image": "assets/images/cards/characters/c1-level_one_isaac.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 48,
+            "name": "Florian",
+            "image": "assets/images/cards/characters/c1-florian.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 49,
+            "name": "Bum-Bo The Stout",
+            "image": "assets/images/cards/characters/c1-anni-bumbo_the_stout.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 50,
+            "name": "Ash",
+            "image": "assets/images/cards/characters/c1-ash.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 51,
+            "name": "Steven",
+            "image": "assets/images/cards/characters/c1-steven.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 52,
+            "name": "Bum-Bo The Weird",
+            "image": "assets/images/cards/characters/c1-bum_bo_the_weird.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 53,
+            "name": "Edmund",
+            "image": "assets/images/cards/characters/c1-edmund.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 54,
+            "name": "Abe",
+            "image": "assets/images/cards/characters/c1-abe.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 55,
+            "name": "Baba",
+            "image": "assets/images/cards/characters/c1-baba.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 56,
+            "name": "Blind Johnny",
+            "image": "assets/images/cards/characters/c1-blind_johnny.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 57,
+            "name": "Blue Archer",
+            "image": "assets/images/cards/characters/c1-blue_archer.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 58,
+            "name": "Boyfriend",
+            "image": "assets/images/cards/characters/c1-boyfriend.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 59,
+            "name": "Captain Viridian",
+            "image": "assets/images/cards/characters/c1-captain_viridian.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 60,
+            "name": "Crewmate",
+            "image": "assets/images/cards/characters/c1-crewmate.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 61,
+            "name": "Guy Spelunky",
+            "image": "assets/images/cards/characters/c1-guy_spelunky.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 62,
+            "name": "Johnny",
+            "image": "assets/images/cards/characters/c1-johnny.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 63,
+            "name": "Pink Knight",
+            "image": "assets/images/cards/characters/c1-pink_knight.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 64,
+            "name": "Psycho Goreman",
+            "image": "assets/images/cards/characters/c1-psycho_goreman.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 65,
+            "name": "Quote",
+            "image": "assets/images/cards/characters/c1-quote.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 66,
+            "name": "Salad Fingers",
+            "image": "assets/images/cards/characters/c1-salad_fingers.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 67,
+            "name": "The Knight",
+            "image": "assets/images/cards/characters/c1-the_knight.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 68,
+            "name": "The Silent",
+            "image": "assets/images/cards/characters/c1-the_silent.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 69,
+            "name": "Young Venuz",
+            "image": "assets/images/cards/characters/c1-yung_venuz.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 70,
+            "name": "Isaac",
+            "image": "assets/images/cards/characters/c1-isaac3.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 71,
+            "name": "Judas",
+            "image": "assets/images/cards/characters/c1-judas2.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 72,
+            "name": "Blue Baby",
+            "image": "assets/images/cards/characters/c1-blue_baby2.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 73,
+            "name": "Azael",
+            "image": "assets/images/cards/characters/c1-azazel2.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 74,
+            "name": "The Lost",
+            "image": "assets/images/cards/characters/c1-the_lost2.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 75,
+            "name": "Lilith",
+            "image": "assets/images/cards/characters/c1-lilith2.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 76,
+            "name": "The Keeper",
+            "image": "assets/images/cards/characters/c1-the_keeper2.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 77,
+            "name": "The Forgotten",
+            "image": "assets/images/cards/characters/c1-the_forgotten2.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 78,
+            "name": "Guppy",
+            "image": "assets/images/cards/characters/c1-guppy2.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 79,
+            "name": "The Capricious",
+            "image": "assets/images/cards/characters/c1-the_capricious2.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 80,
+            "name": "The Savage",
+            "image": "assets/images/cards/characters/c1-the_savage2.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 81,
+            "name": "The Harlot",
+            "image": "assets/images/cards/characters/c1-the_harlot2.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 82,
+            "name": "Eden",
+            "image": "assets/images/cards/characters/c1-eden4.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 83,
+            "name": "Eden",
+            "image": "assets/images/cards/characters/c1-eden5.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 84,
+            "name": "Tapeworm",
+            "image": "assets/images/cards/characters/c1-tapeworm.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 85,
+            "name": "Eden",
+            "image": "assets/images/cards/characters/c1-eden6.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 86,
+            "name": "Isaac",
+            "image": "assets/images/cards/characters/c1-isaac-box.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 87,
+            "name": "Cain",
+            "image": "assets/images/cards/characters/c1-cain-box.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 88,
+            "name": "The Lost",
+            "image": "assets/images/cards/characters/c1-the_lost_box.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 89,
+            "name": "Bum-Bo",
+            "image": "assets/images/cards/characters/c1-bum-bum_bo.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 90,
+            "name": "Guppy",
+            "image": "assets/images/cards/characters/c1-ytz-guppy.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 91,
+            "name": "Isaac",
+            "image": "assets/images/cards/characters/c1-isaac2.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 92,
+            "name": "Stacy 704891",
+            "image": "assets/images/cards/characters/c1-Stacy_704891.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 93,
+            "name": "Eden",
+            "image": "assets/images/cards/characters/c1-psp-eden.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 94,
+            "name": "Eden",
+            "image": "assets/images/cards/characters/c1-sp-eden.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 95,
+            "name": "Eden",
+            "image": "assets/images/cards/characters/c1-p-eden_3.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        },
+        {
+            "id": 96,
+            "name": "Eden",
+            "image": "assets/images/cards/characters/c1-p-eden_4.webp",
+            "imageback": "assets/images/cards/characters/CharacterCardBack.webp"
+        }
+    ]
+}

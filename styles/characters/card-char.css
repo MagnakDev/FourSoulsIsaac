@@ -1,0 +1,46 @@
+/** ====================== **/
+/** FONT ISAAC **/
+/****/
+
+@font-face {
+    font-family: Isaac;
+    src: url('/assets/fonts/Font_soulsV2_Body-Regular.ttf');
+}
+
+
+/**====================**/
+/** UNIVERSAL **/
+/****/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Isaac, arial, sans-serif;
+}
+
+/**==== BODY =====**
+/****/
+body {
+    background-color: var(--color-fondo);
+    color: white;
+}
+
+/**==== DECLARACIÓN DE VARIABLES =====**
+/****/
+:root {
+    --color-fondo: #111111;
+    --color-sec: #333333;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; flex-wrap: wrap; justify-content: center;
+    margin-top: 50px; gap: 100px;
+}
+
+.img-card{
+    width: 250px; height: auto;
+    border: none; border-radius: 10px;
+    box-shadow: 4px 4px 0px 3px black ;
+}
+
